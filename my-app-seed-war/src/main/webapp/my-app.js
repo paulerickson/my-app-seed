@@ -1,7 +1,7 @@
 'use strict';
 
-define([], function() {
-	
+define(['angular-page'], function(app) {
+
 	app.config(['$routeProvider', function($routeProvider) {
 			$routeProvider.when('/default', {
 				templateUrl: 'my-app.html'
